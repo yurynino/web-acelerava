@@ -6,7 +6,7 @@
 			</h1>
 			
 			<div class="information">
-				<h4>&iexcl;Tierra!</h4>
+				<h4>Title</h4>
 			</div>
 
 			<div class="images">
@@ -14,12 +14,12 @@
 			</div>
 			
 			<div class="information">
-				XXXXX
+				XXXX
 			</div>
 		</li>
 		<li>
 			<h2>
-				<a href="/one/day2-content.jsp">Regresar</a>
+				<a href="/two/day2-content.jsp">Regresar</a>
 			</h2>
 		</li>
 	</ul>

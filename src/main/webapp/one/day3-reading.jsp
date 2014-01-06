@@ -2,11 +2,11 @@
 	<ul class="section">
 		<li>
 			<h1>
-				<span>D&iacute;a 2</span> <a>A Leer</a>
+				<span>D&iacute;a 3</span> <a>A Leer</a>
 			</h1>
 			
 			<div class="information">
-				<h4>&iexcl;Tierra!</h4>
+				<h4>Title</h4>
 			</div>
 
 			<div class="images">
@@ -14,12 +14,12 @@
 			</div>
 			
 			<div class="information">
-				XXXXX
+				XXXX
 			</div>
 		</li>
 		<li>
 			<h2>
-				<a href="/one/day2-content.jsp">Regresar</a>
+				<a href="/one/day3-content.jsp">Regresar</a>
 			</h2>
 		</li>
 	</ul>

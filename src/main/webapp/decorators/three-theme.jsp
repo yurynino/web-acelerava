@@ -4,7 +4,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Acelerava::Subproyecto 1</title>
+	<title>Acelerava::Subproyecto 3</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/style.css" >
 	<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
@@ -15,7 +15,7 @@
 		<div id="page">
 			<div id="body">
 				<div id="section-sidebar">
-					<%@include file="/decorators/components/oneMenu.jsp" %>
+					<%@include file="/decorators/components/threeMenu.jsp" %>
 				</div>
 				<div id="content">
 					<div class="body">

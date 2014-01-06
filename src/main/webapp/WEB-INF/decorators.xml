@@ -3,6 +3,15 @@
     <decorator name="one-theme" page="one-theme.jsp">
         <pattern>/one/*</pattern>
     </decorator>
+    <decorator name="two-theme" page="two-theme.jsp">
+        <pattern>/two/*</pattern>
+    </decorator>
+    <decorator name="three-theme" page="three-theme.jsp">
+        <pattern>/three/*</pattern>
+    </decorator>
+    <decorator name="four-theme" page="four-theme.jsp">
+        <pattern>/four/*</pattern>
+    </decorator>
     <decorator name="basic-theme" page="basic-theme.jsp">
         <pattern>/*</pattern>
     </decorator>

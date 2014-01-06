@@ -23,7 +23,7 @@
 				departamentos de Colombia puedes ubicarlos en el mapa: <br/></div>
 
 			<div class="images">
-				<img alt="Mapamundi" src="/images/two/departments.gif">
+				<img alt="Mapamundi" src="/images/one/departments.gif">
 			</div>
 
 			<div class="table">
@@ -159,6 +159,7 @@
 					<tr>
 						<td>Vichada</td>
 						<td>Puerto Carre&ntilde;o</td>
+					</tr>
 				</table>
 			</div>
 		</li>

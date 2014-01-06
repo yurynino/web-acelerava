@@ -395,18 +395,6 @@ a {
 	color: #404040;
 }
 
-#background #page #body #content .body .content ul.section li .game .world-game-left
-	{
-	margin: 0;
-	float: left;
-}
-
-#background #page #body #content .body .content ul.section li .game .world-game-right
-	{
-	margin: 0;
-	float: right;
-}
-
 #background #page #body #content .body .content ul.section li h2 {
 	color: #4E83AE;
 	font-weight: normal;

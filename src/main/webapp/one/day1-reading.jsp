@@ -2,8 +2,12 @@
 	<ul class="section">
 		<li>
 			<h1>
-				<span>D&iacute;a 1</span> <a>Lectura Recomendada</a>
+				<span>D&iacute;a 1</span> <a>A Leer</a>
 			</h1>
+			
+			<div class="information">
+				<h4>&iexcl;Tierra!</h4>
+			</div>
 
 			<div class="images">
 				<img alt="Tierra" src="/images/one/ship-reading.jpg">

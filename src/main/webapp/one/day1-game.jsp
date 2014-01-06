@@ -1,5 +1,6 @@
 <head>
-	<script src="../js/games.js"></script>
+	<link href="../css/locategame.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="../js/locategame.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			generateQuestion(0);
