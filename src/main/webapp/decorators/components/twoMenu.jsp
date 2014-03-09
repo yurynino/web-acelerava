@@ -9,7 +9,6 @@
 			<ul>
 				<li><a href="/two/day1-game.jsp">A Jugar</a></li>
 				<li><a href="/two/day1-reading.jsp">A Leer</a></li>
-				<li><a href="/two/day1-evaluation.jsp">Evaluaci&oacute;n</a></li>
 			</ul>
 		</li>
 		<li>
@@ -17,7 +16,6 @@
 			<ul>
 				<li><a href="/two/day2-game.jsp">A Jugar</a></li>
 				<li><a href="/two/day2-reading.jsp">A Leer</a></li>
-				<li><a href="/two/day2-evaluation.jsp">Evaluaci&oacute;n</a></li>
 			</ul>
 		</li>
 		<li>
@@ -25,8 +23,10 @@
 			<ul>
 				<li><a href="/two/day3-game.jsp">A Jugar</a></li>
 				<li><a href="/two/day3-reading.jsp">A Leer</a></li>
-				<li><a href="/two/day3-evaluation.jsp">Evaluaci&oacute;n</a></li>
 			</ul>
+		</li>
+		<li>
+			<a href="/evaluation/questions.jsp?chapter=2">Evaluation</a>
 		</li>
 	</ul>
 </div>

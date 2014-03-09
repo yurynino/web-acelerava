@@ -9,7 +9,6 @@
 			<ul>
 				<li><a href="/four/day1-game.jsp">A Jugar</a></li>
 				<li><a href="/four/day1-reading.jsp">A Leer</a></li>
-				<li><a href="/four/day1-evaluation.jsp">Evaluaci&oacute;n</a></li>
 			</ul>
 		</li>
 		<li>

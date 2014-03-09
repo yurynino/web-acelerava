@@ -666,3 +666,10 @@ a {
 .table tr:first-child td:last-child {
 	border-width: 0px 0px 1px 1px;
 }
+
+.question {
+	margin: 20px 0px;
+	text-align: justify;
+	font-size: 16px;
+	color: #404040;
+}

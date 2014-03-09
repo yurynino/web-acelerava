@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.acelerava;
+package com.acelerava.web;
 
 import java.io.IOException;
 

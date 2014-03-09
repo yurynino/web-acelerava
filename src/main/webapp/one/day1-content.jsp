@@ -34,9 +34,6 @@
 			<h2>
 				<a href="/one/day1-reading.jsp">A Leer</a>
 			</h2>
-			<h2>
-				<a href="/one/day1-evaluation.jsp">Evaluaci&oacute;n</a>
-			</h2>
 		</li>
 	</ul>
 </body>
