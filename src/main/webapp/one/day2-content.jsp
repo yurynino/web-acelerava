@@ -29,8 +29,8 @@
 			<div class="table">
 				<table>
 					<tr>
-						<td>Departamento</td>
-						<td>Capital</td>
+						<th>Departamento</th>
+						<th>Capital</th>
 					</tr>
 					<tr>
 						<td>Amazonas</td>
