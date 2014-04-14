@@ -28,7 +28,10 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>evaluation</servlet-name>
-		<url-pattern>/evaluation</url-pattern>
+		<url-pattern>/one/evaluation</url-pattern>
+		<url-pattern>/two/evaluation</url-pattern>
+		<url-pattern>/three/evaluation</url-pattern>
+		<url-pattern>/four/evaluation</url-pattern>
 	</servlet-mapping>
 
 	<welcome-file-list>

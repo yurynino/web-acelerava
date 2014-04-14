@@ -14,5 +14,6 @@
     </decorator>
     <decorator name="basic-theme" page="basic-theme.jsp">
         <pattern>/*</pattern>
+        <pattern>/_ah/login?continue=%2Findex.jsp</pattern>
     </decorator>
 </decorators>

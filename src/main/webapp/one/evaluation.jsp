@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <%@ page import="java.util.List" %>
 <%@ page import="com.acelerava.provider.EvaluationProvider" %>
 <%@ page import="com.acelerava.domain.Question" %>
@@ -14,20 +15,27 @@
 			<h1>
 				<span></span> <a>Evaluaci&oacute;n</a>
 			</h1>
+			
+			<c:if test="">
+			</c:if>
 			<div class="information">
 				Selecciona la respuesta correcta para cada una de las preguntas:
 			</div>
 			
-			<form action="">
+			<form action="evaluation" method="POST">
 				<div class="question">
 					<c:forEach items="${questions}" var="question">
-						<b>${question.text}</b>
+						<b>${question.number} ${question.text}</b>
 						<br />
 						<c:forEach items="${question.options}" var="option" varStatus="status" >
-							<input type="radio" name="option" value="${status.index}" /> ${option}
+							<input type="radio" name="answer_${question}" value="${status.index}" /> ${option}
 							<br>
 						</c:forEach>
-					</c:forEach>			
+					</c:forEach>
+				</div>
+				<div>
+					<input type="hidden" name="evaluation" value="one">
+					<input type="submit" />
 				</div>
 			</form>
 		</li>
