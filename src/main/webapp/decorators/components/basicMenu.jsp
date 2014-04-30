@@ -1,3 +1,4 @@
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <ul>
 	<li>
 		<a href="/one/subproject.jsp">Subproyecto 1<span>Colombia en Mapas</span></a>

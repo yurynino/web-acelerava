@@ -12,8 +12,10 @@
     <decorator name="four-theme" page="four-theme.jsp">
         <pattern>/four/*</pattern>
     </decorator>
+    <decorator name="login-theme" page="login-theme.jsp">
+        <pattern>/_ah/*</pattern>
+    </decorator>
     <decorator name="basic-theme" page="basic-theme.jsp">
-        <pattern>/*</pattern>
-        <pattern>/_ah/login?continue=%2Findex.jsp</pattern>
+        <pattern>*</pattern>
     </decorator>
 </decorators>

@@ -18,19 +18,39 @@
 	<div id="background">
 		<div id="page">
 			<div id="body">
-				<div id="basic-sidebar">
-					<%
-					UserService userService = UserServiceFactory.getUserService();
-				    User user = userService.getCurrentUser();
-				    if (user != null) {
-				        pageContext.setAttribute("user", user);
-					%>
+				<%
+				UserService userService = UserServiceFactory.getUserService();
+			    User user = userService.getCurrentUser();
+			    if (user != null) {
+			        pageContext.setAttribute("user", user);
+				%>
+					<div id="basic-sidebar">
 						<%@include file="/decorators/components/basicMenu.jsp" %>
-					<%
-					}
-					%>
-				</div>
+					</div>
+				<%
+				} else {
+				%>
+					<div id="default-sidebar">
+						<%@include file="/decorators/components/defaultMenu.jsp" %>
+					</div>
+				<%
+				}
+				%>
 				<div id="content">
+					<p class="important">
+						<%
+					    if (user != null) {
+					        pageContext.setAttribute("user", user);
+						%>
+							<a href="<%= userService.createLogoutURL(request.getRequestURI()) %>">Salir</a>
+						<%
+					    } else {
+						%>
+							<a href="<%= userService.createLoginURL(request.getRequestURI()) %>">Iniciar Sesi&oacute;n</a>
+						<%
+					 	}
+						%>
+					</p>
 					<div class="body">
 						<div class="content">
 							<decorator:body />

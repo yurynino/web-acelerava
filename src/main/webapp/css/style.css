@@ -42,13 +42,22 @@ a {
 	background-repeat: repeat-x;
 }
 
-#background #page #body #basic-sidebar ul {
+#background #page #body #default-sidebar {
+	width: 328px;
+	overflow: hidden;
+	float: left;
+	background: url("../images/bg-section-sidebar-blank.jpg");
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+#background #page #body #basic-sidebar ul, #background #page #body #default-sidebar ul {
 	margin: 32px 0 0 70px;
 	padding: 0;
 	list-style: none;
 }
 
-#background #page #body #basic-sidebar ul li {
+#background #page #body #basic-sidebar ul li, #background #page #body #default-sidebar ul li {
 	font-family: "Purisa", "Comic Sans MS", Arial;
 	width: 210px;
 	height: 110px;
@@ -275,6 +284,19 @@ a {
 	color: #999999;
 	margin-top: 0;
 	text-align: justify;
+}
+
+#background #page #body #content p.important {
+	color: #542f06;
+	font-weight: bold;
+	text-align: right;
+}
+
+#background #page #body #content p.important a {
+	color: #542f06;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: none;
 }
 
 #background #page #body #content .body .content ul li p a {
