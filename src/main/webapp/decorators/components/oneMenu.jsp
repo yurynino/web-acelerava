@@ -19,14 +19,14 @@
 			</ul>
 		</li>
 		<li>
-			<a href="/one/day3-content.jsp">3. Regiones Naturales</a>
+			<a href="/one/day3-content.jsp">3. Hidrograf&iacute;a</a>
 			<ul>
 				<li><a href="/one/day3-game.jsp">A Jugar</a></li>
 				<li><a href="/one/day3-reading.jsp">A Leer</a></li>
 			</ul>
 		</li>
 		<li>
-			<a href="/one/evaluation.jsp">Evaluation</a>
+			<a href="/one/evaluation.jsp">Evaluaci&oacute;n</a>
 		</li>
 	</ul>
 </div>
