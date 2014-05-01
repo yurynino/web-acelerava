@@ -11,7 +11,7 @@
 			<div class="information">
 				Un <b>mapamundi</b> es un mapa de toda la superficie de la Tierra.
 				Dependiendo de su forma, un mapamundi puede ser: un <b>globo
-					terr&aacute;queo</b>, que reproduce la forma esf&eacute;rica de la
+				terr&aacute;queo</b>, que reproduce la forma esf&eacute;rica de la
 				tierra o un <b>planisferio terrestre</b>, que reproduce la
 				proyecci&oacute;n geogr&aacute;fica de la Tierra en un plano.
 			</div>

@@ -9,18 +9,20 @@
 				Con el logro de la independencia y despu&eacute;s de muchos
 				procesos, el pa&iacute;s se organiz&oacute; territorialmente de
 				formas diferentes. La <b>Constituci&oacute;n Pol&iacute;tica de
-					Colombia </b> de 1991 estableci&oacute; la organizaci&oacute;n del
+				Colombia </b> de 1991 estableci&oacute; la organizaci&oacute;n del
 				territorio colombiano en <b>32 departamentos, 1.101 municipios,
-					10 distritos especiales y muchos territorios ind&iacute;genas</b>.
+				10 distritos especiales y muchos territorios ind&iacute;genas</b>.
 
 			</div>
 
-			<div class="information">De esta forma se busc&oacute;
-				organizar y dar mayor autonom&iacute;a a los departamentos en la
-				toma de decisiones y manejo de recursos. Adem&aacute;s de reconocer
-				el derecho de las comunidades abor&iacute;genes, a tener un espacio
-				propio donde preservar su cultura y obtener su sustento. Los 32
-				departamentos de Colombia puedes ubicarlos en el mapa: <br/></div>
+			<div class="information">
+				De esta forma se busc&oacute; organizar y dar mayor autonom&iacute;a
+				a los departamentos en la toma de decisiones y manejo de recursos.
+				Adem&aacute;s de reconocer el derecho de las comunidades
+				abor&iacute;genes, a tener un espacio propio donde preservar su
+				cultura y obtener su sustento. Los 32 departamentos de Colombia
+				puedes ubicarlos en el mapa: <br />
+			</div>
 
 			<div class="images">
 				<img alt="Mapamundi" src="/images/one/departments.gif">

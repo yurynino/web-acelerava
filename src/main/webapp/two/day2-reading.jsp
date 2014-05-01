@@ -6,7 +6,7 @@
 			</h1>
 			
 			<div class="information">
-				<h4>Title</h4>
+				<h4>Receta de Arequipe</h4>
 			</div>
 
 			<div class="images">

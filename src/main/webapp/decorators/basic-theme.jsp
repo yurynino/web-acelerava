@@ -42,6 +42,7 @@
 					    if (user != null) {
 					        pageContext.setAttribute("user", user);
 						%>
+							<a href="/">Inicio | </a>
 							<a href="<%= userService.createLogoutURL(request.getRequestURI()) %>">Salir</a>
 						<%
 					    } else {

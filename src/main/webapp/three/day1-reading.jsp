@@ -4,18 +4,16 @@
 			<h1>
 				<span>D&iacute;a 1</span> <a>A Leer</a>
 			</h1>
-			
+
 			<div class="information">
-				<h4>Title</h4>
+				<h4>El Mochuelo</h4>
 			</div>
 
 			<div class="images">
 				<img alt="XXXXX" src="/images/one/XXXX.png">
 			</div>
-			
-			<div class="information">
-				XXXX
-			</div>
+
+			<div class="information">XXXX</div>
 		</li>
 		<li>
 			<h2>
