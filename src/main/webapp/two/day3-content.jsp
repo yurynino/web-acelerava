@@ -6,26 +6,27 @@
 			</h1>
 
 			<div class="images">
-				<img alt="XXX" src="/images/two/XXX.gif">
+				<img alt="XXX" src="/images/two/carnaval-barranquilla.jpg">
 			</div>
 
 			<div class="information">Los eventos culturales llevan alegria
-				y entretenimiento a las personas. La música, el baile, la actuación
-				y otras expresiones artistícas son manifestaciones de la identidad
-				cultural que pueden tornar la vida más alegre. Así como las comidas,
-				la música y el baile pueden ser típicos de una región, ya que
+				y entretenimiento a las personas. La m&uacute;sica, el baile, la
+				actuaci&oacute;n y otras expresiones artist&iacute;cas son
+				manifestaciones de la identidad cultural que pueden tornar la vida
+				m&aacute;s alegre. As&iacute; como las comidas, la m&uacute;sica y
+				el baile pueden ser t&iacute;picos de una regi&oacute;n, ya que
 				expresan la identidad cultural de un pueblo.</div>
 
 			<div class="information">Estas manifestaciones culturales
 				tienen origen en las costumbres y en las creencias de los diversos
-				grupos étnicos que se mezclaron en el continente americano, como los
-				aborígenes americanos, los afrodescendientes y las personas de
-				origen blanco europeo.</div>
+				grupos &eacute;tnicos que se mezclaron en el continente americano,
+				como los abor&iacute;genes americanos, los afrodescendientes y las
+				personas de origen blanco europeo.</div>
 
 			<div class="information">El pueblo colombiano tiene una cultura
 				muy rica en bailes y ritmos, en fiestas y en carnavales, a
-				continuación encontrarás las festividades colombianas más
-				importantes:</div>
+				continuaci&oacute;n encontrar&aacute;s las festividades colombianas
+				m&aacute;s importantes:</div>
 
 			<div class="table">
 				<table>
@@ -50,7 +51,7 @@
 						<td>Enero</td>
 					</tr>
 					<tr>
-						<td>Carnaval de San Pacho de Chocó</td>
+						<td>Carnaval de San Pacho de Choc&oacute;</td>
 						<td>1929</td>
 						<td>Octubre</td>
 					</tr>
@@ -60,7 +61,7 @@
 						<td>Abril</td>
 					</tr>
 					<tr>
-						<td>Cuadrillas de San Martín, Meta</td>
+						<td>Cuadrillas de San Mart&iacute;n, Meta</td>
 						<td>1735</td>
 						<td>Noviembre</td>
 					</tr>
@@ -80,6 +81,9 @@
 						<td>Mayo</td>
 					</tr>
 				</table>
+				
+				<div class="bibliography">Tomado del M&oacute;dulo La Colombia
+				de Todos Nosotros</div>
 			</div>
 		</li>
 		<li>
@@ -88,9 +92,6 @@
 			</h2>
 			<h2>
 				<a href="/two/day3-reading.jsp">A Leer</a>
-			</h2>
-			<h2>
-				<a href="/two/day3-evaluation.jsp">Evaluaci&oacute;n</a>
 			</h2>
 		</li>
 	</ul>

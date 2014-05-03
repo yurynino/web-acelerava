@@ -55,6 +55,8 @@
 				la magia que posee esta tierra, la misma que cautivara a los
 				navegantes, quienes al verla por primera vez exclamaron
 				&#161;Tierra!.</div>
+				
+			<div class="bibliography">Tomado del M&oacute;dulo La Colombia de Todos Nosotros</div>
 		</li>
 		<li>
 			<h2>

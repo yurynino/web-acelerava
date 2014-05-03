@@ -5,7 +5,7 @@
 	<h2>Temas</h2>
 	<ul>
 		<li>
-			<a href="/three/day1-content.jsp">1. Descripci&oacute;n</a>
+			<a href="/three/day1-content.jsp">1. Regiones Naturales</a>
 			<ul>
 				<li><a href="/three/day1-game.jsp">A Jugar</a></li>
 				<li><a href="/three/day1-reading.jsp">A Leer</a></li>

@@ -25,8 +25,10 @@
 				tipos de vivienda:</div>
 
 			<div class="images">
-				<img alt="Tipos de Vivienda" src="/images/two/housetypes.jpg">
+				<img alt="Tipos de Vivienda" src="/images/two/house-types.jpg">
 			</div>
+			
+			<div class="bibliography">Tomado del M&oacute;dulo La Colombia de Todos Nosotros</div>
 		</li>
 		<li>
 			<h2>
@@ -34,9 +36,6 @@
 			</h2>
 			<h2>
 				<a href="/two/day1-reading.jsp">A Leer</a>
-			</h2>
-			<h2>
-				<a href="/two/day1-evaluation.jsp">Evaluaci&oacute;n</a>
 			</h2>
 		</li>
 	</ul>

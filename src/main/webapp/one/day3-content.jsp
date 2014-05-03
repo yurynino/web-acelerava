@@ -24,12 +24,12 @@
 			<div class="information">Colombia esta dividido en cinco
 				v&eacute;rtices: la vertiente del Caribe, la vertiente del
 				Pac&iacute;fico, la vertiente del Amazonas, la vertiente del Orinoco
-				y la vertiente del Catatumbo. En la siguiente tabla se muestran las
+				y la vertiente del Catatumbo. En la siguiente tabla te mostramos las
 				longitudes de los r&iacute;os que conforman cada una de las
 				vertientes:</div>
-				
+
 			<div class="images">
-				<img alt="Hidrografía" src="/images/one/hidrography.png">
+				<img alt="Hidrografia" src="/images/one/hidrography.png">
 			</div>
 
 			<div class="table">
@@ -114,6 +114,8 @@
 					</tr>
 				</table>
 			</div>
+			
+			<div class="bibliography">Tomado de http://gecolombia9b.wordpress.com/2011/08/02/hidrografia-de-colombia/</div>
 		</li>
 		<li>
 			<h2>

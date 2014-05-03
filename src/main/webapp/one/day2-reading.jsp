@@ -64,6 +64,8 @@
 				ej&eacute;rcitos realistas se materializ&oacute;, con lo que se
 				di&oacute; paso a un nuevo momento hist&oacute;rico: La
 				Rep&uacute;blica.</div>
+				
+			<div class="bibliography">Tomado del M&oacute;dulo La Colombia de Todos Nosotros</div>
 		</li>
 		<li>
 			<h2>

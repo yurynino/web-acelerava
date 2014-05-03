@@ -10,7 +10,7 @@
 			</div>
 
 			<div class="images">
-				<img alt="XXXXX" src="/images/one/XXXX.png">
+				<img alt="XXXXX" src="/images/three/XXXX.png">
 			</div>
 			
 			<div class="information">

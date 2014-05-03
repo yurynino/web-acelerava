@@ -6,7 +6,7 @@
 			</h1>
 			
 			<div class="images">
-				<img alt="XXX" src="/images/two/XXX.gif">
+				<img alt="XXX" src="/images/three/XXX.gif">
 			</div>
 
 			<div class="information">
@@ -19,9 +19,6 @@
 			</h2>
 			<h2>
 				<a href="/two/day2-reading.jsp">A Leer</a>
-			</h2>
-			<h2>
-				<a href="/two/day2-evaluation.jsp">Evaluaci&oacute;n</a>
 			</h2>
 		</li>
 	</ul>

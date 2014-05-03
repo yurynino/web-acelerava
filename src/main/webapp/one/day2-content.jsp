@@ -25,7 +25,7 @@
 			</div>
 
 			<div class="images">
-				<img alt="Mapamundi" src="/images/one/departments.gif">
+				<img alt="Departamentos de Colombia" src="/images/one/departments.gif">
 			</div>
 
 			<div class="table">
@@ -164,6 +164,8 @@
 					</tr>
 				</table>
 			</div>
+			
+			<div class="bibliography">Tomado de http://es.wikipedia.org</div>
 		</li>
 		<li>
 			<h2>

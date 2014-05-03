@@ -51,13 +51,15 @@ a {
 	background-repeat: repeat-x;
 }
 
-#background #page #body #basic-sidebar ul, #background #page #body #default-sidebar ul {
+#background #page #body #basic-sidebar ul,#background #page #body #default-sidebar ul
+	{
 	margin: 32px 0 0 70px;
 	padding: 0;
 	list-style: none;
 }
 
-#background #page #body #basic-sidebar ul li, #background #page #body #default-sidebar ul li {
+#background #page #body #basic-sidebar ul li,#background #page #body #default-sidebar ul li
+	{
 	font-family: "Purisa", "Comic Sans MS", Arial;
 	width: 210px;
 	height: 110px;
@@ -415,6 +417,24 @@ a {
 	margin-bottom: 10px;
 	font-size: 16px;
 	color: #404040;
+}
+
+#background #page #body #content .body .content ul.section li div.bibliography
+	{
+	text-align: justify;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #404040;
+	font-style: italic;
+}
+
+#background #page #body #content .body .content ul.section li div.information h4
+	{
+	text-align: center;
+}
+
+#background #page #body #content .body .content ul.section li div.information.center {
+	text-align: center;
 }
 
 #background #page #body #content .body .content ul.section li h2 {
