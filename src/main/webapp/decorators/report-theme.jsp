@@ -9,7 +9,7 @@
 <%@ page import="com.google.appengine.api.users.UserServiceFactory" %>
 
 <head>
-	<title>Acelerava::Subproyecto 4</title>
+	<title>Acelerava::Subproyecto 3</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/style.css" >
 	<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
@@ -20,7 +20,7 @@
 		<div id="page">
 			<div id="body">
 				<div id="section-sidebar">
-					<%@include file="/decorators/components/fourMenu.jsp" %>
+					<%@include file="/decorators/components/reportMenu.jsp" %>
 				</div>
 				<div id="content">
 					<p class="important">
@@ -30,7 +30,7 @@
 					    if (user != null) {
 					        pageContext.setAttribute("user", user);
 						%>
-						    <a href="/">Inicio | </a>
+							<a href="/">Inicio | </a>
 							<a href="<%= userService.createLogoutURL(request.getRequestURI()) %>">Salir</a>
 						<%
 					    } else {

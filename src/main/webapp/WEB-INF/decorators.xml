@@ -9,8 +9,8 @@
     <decorator name="three-theme" page="three-theme.jsp">
         <pattern>/three/*</pattern>
     </decorator>
-    <decorator name="four-theme" page="four-theme.jsp">
-        <pattern>/four/*</pattern>
+    <decorator name="report-theme" page="report-theme.jsp">
+        <pattern>/reports/*</pattern>
     </decorator>
     <decorator name="login-theme" page="login-theme.jsp">
         <pattern>/_ah/*</pattern>

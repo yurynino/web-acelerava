@@ -6,7 +6,7 @@
 			</h1>
 
 			<div class="information">
-				<h4>El Mochuelo</h4>
+				<h4>La Leyenda del Dorado</h4>
 			</div>
 
 			<div class="images">
