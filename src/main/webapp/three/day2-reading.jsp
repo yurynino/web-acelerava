@@ -15,7 +15,7 @@
 
 			<div class="information">Dice la leyenda que el delf&iacute;n rosado
 				seduce a las muchachas que viven en los m&aacute;rgenes de los principales
-				aluentes del R&iacute;o Amazonas.</div>
+				afluentes del R&iacute;o Amazonas.</div>
 
 			<div class="information">En las primeras horas de la noche el
 				delf&iacute;n se transforma en un muchacho muy bello, alto, fuerte, blanco,

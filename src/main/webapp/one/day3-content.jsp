@@ -6,7 +6,7 @@
 			</h1>
 
 			<div class="information">La hidrograf&iacute;a es la rama de la
-				geograf&iacute;a f&iacute;sica que estudia los oc&aacute;anos,
+				geograf&iacute;a f&iacute;sica que estudia los oc&eacute;anos,
 				r&iacute;os, lagos, lagunas, quebradas y aguas subterr&aacute;neas.
 				La hidrograf&iacute;a de Colombia es de las m&aacute;s ricas del
 				mundo. Sus principales r&iacute;os son el Magdalena, el Cauca, el

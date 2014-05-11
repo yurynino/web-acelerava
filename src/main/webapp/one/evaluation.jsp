@@ -1,11 +1,13 @@
+<%@page import="com.acelerava.provider.EvaluationOne"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <%@ page import="java.util.List" %>
 <%@ page import="com.acelerava.provider.EvaluationProvider" %>
+<%@ page import="com.acelerava.provider.EvaluationOne" %>
 <%@ page import="com.acelerava.domain.Question" %>
 
 <%
-	List<Question> questions = EvaluationProvider.getEvaluationOne();
+	List<Question> questions = EvaluationProvider.getEvaluation(new EvaluationOne());
 	pageContext.setAttribute("questions", questions);
 %>
 
@@ -15,9 +17,7 @@
 			<h1>
 				<span></span> <a>Evaluaci&oacute;n</a>
 			</h1>
-			
-			<c:if test="">
-			</c:if>
+
 			<div class="information">
 				Selecciona la respuesta correcta para cada una de las preguntas:
 			</div>
@@ -35,7 +35,7 @@
 				</c:forEach>
 				<div>
 					<input type="hidden" name="evaluation" value="one">
-					<input type="submit" />
+					<input type="submit" value="Env&iacute;ar" />
 				</div>
 			</form>
 		</li>

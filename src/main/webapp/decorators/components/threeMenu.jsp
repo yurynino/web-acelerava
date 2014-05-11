@@ -25,5 +25,8 @@
 				<li><a href="/three/day3-reading.jsp">A Leer</a></li>
 			</ul>
 		</li>
+		<li>
+			<a href="/two/evaluation.jsp">Evaluaci&oacute;n</a>
+		</li>
 	</ul>
 </div>
