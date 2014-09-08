@@ -15,7 +15,7 @@
 
 	<servlet>
 		<servlet-name>sign</servlet-name>
-		<servlet-class>com.acelerava.web.SignAceleravaServlet</servlet-class>
+		<servlet-class>com.acelerava.web.SignServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>sign</servlet-name>
@@ -35,6 +35,6 @@
 	</servlet-mapping>
 
 	<welcome-file-list>
-		<welcome-file>home/index.jsp</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
 </web-app>
