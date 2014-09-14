@@ -16,7 +16,7 @@
 		<div id="page">
 			<div id="body">
 				<%
-			    User user = (User) request.getAttribute("user");
+			    User user = (User) session.getAttribute("user");
 			    if (user != null) {
 				%>
 					<div id="basic-sidebar">

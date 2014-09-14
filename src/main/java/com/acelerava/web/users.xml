@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<users>
+	<user>
+		<username>carmenza</username>
+		<password>carmenza</password>
+		<rol>PROFESOR</rol>
+	</user>
+	<user>
+		<username>yury</username>
+		<password>yury</password>
+		<rol>ESTUDIANTE</rol>
+	</user>
+</users>
