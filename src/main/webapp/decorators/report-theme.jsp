@@ -4,9 +4,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<%@ page import="com.google.appengine.api.users.User" %>
-<%@ page import="com.google.appengine.api.users.UserService" %>
-<%@ page import="com.google.appengine.api.users.UserServiceFactory" %>
+<%@ page import="com.acelerava.domain.User" %>
 
 <head>
 	<title>Acelerava::Subproyecto 3</title>
@@ -25,19 +23,17 @@
 				<div id="content">
 					<p class="important">
 						<%
-						UserService userService = UserServiceFactory.getUserService();
-					    User user = userService.getCurrentUser();
-					    if (user != null) {
-					        pageContext.setAttribute("user", user);
-						%>
-							<a href="/">Inicio | </a>
-							<a href="<%= userService.createLogoutURL(request.getRequestURI()) %>">Salir</a>
-						<%
-					    } else {
-						%>
-							<a href="<%= userService.createLoginURL(request.getRequestURI()) %>">Iniciar Sesi&oacute;n</a>
-						<%
-					 	}
+							User user = (User) session.getAttribute("user");
+						    if (user != null) {
+							%>
+								<a href="/">Inicio | </a>
+								<a href="signout">Salir</a>
+							<%
+						    } else {
+							%>
+								<a href="sign">Iniciar Sesi&oacute;n</a>
+							<%
+						 	}
 						%>
 					</p>
 					<div class="body">

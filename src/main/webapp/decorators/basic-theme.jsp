@@ -16,20 +16,20 @@
 		<div id="page">
 			<div id="body">
 				<%
-			    User user = (User) session.getAttribute("user");
-			    if (user != null) {
-				%>
-					<div id="basic-sidebar">
-						<%@include file="/decorators/components/basicMenu.jsp" %>
-					</div>
-				<%
-				} else {
-				%>
-					<div id="default-sidebar">
-						<%@include file="/decorators/components/defaultMenu.jsp" %>
-					</div>
-				<%
-				}
+				    User user = (User) session.getAttribute("user");
+				    if (user != null) {
+					%>
+						<div id="basic-sidebar">
+							<%@include file="/decorators/components/basicMenu.jsp" %>
+						</div>
+					<%
+					} else {
+					%>
+						<div id="default-sidebar">
+							<%@include file="/decorators/components/defaultMenu.jsp" %>
+						</div>
+					<%
+					}
 				%>
 				<div id="content">
 					<p class="important">
@@ -37,7 +37,7 @@
 					    if (user != null) {
 						%>
 							<a href="/">Inicio | </a>
-							<a href="">Salir</a>
+							<a href="signout">Salir</a>
 						<%
 					    } else {
 						%>

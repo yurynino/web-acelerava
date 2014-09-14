@@ -10,13 +10,14 @@ public class User implements Serializable {
 
 	private String password;
 
+	private String name;
+
 	private String rol;
 
-	public User(String username, String password, String rol) {
+	public User(String username, String password) {
 		super();
 		this.username = username;
 		this.password = password;
-		this.rol = rol;
 	}
 
 	public String getUsername() {
@@ -27,13 +28,25 @@ public class User implements Serializable {
 		return password;
 	}
 
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public String getRol() {
 		return rol;
 	}
 
+	public void setRol(String rol) {
+		this.rol = rol;
+	}
+
 	@Override
 	public String toString() {
-		return "User [username=" + username + ", password=" + password + ", rol=" + rol + "]";
+		return "User [username=" + username + ", password=" + password + "]";
 	}
 
 }

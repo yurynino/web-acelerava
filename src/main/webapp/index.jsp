@@ -1,8 +1,22 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
+<%@ page import="com.acelerava.domain.User" %>
+
 <body>
 	<h2>Bienvenido a Acelerava</h2>
 	<ul>
+		<li>
+			<h3>
+				<%
+					User user = (User) session.getAttribute("user");
+					if (user != null) {
+				%>
+						Bienvenido <%=user.getRol() %> <%=user.getName() %>
+				<%
+					}
+				%>
+			</h3>
+		</li>
 		<li>
 			<p>
 				<b>Acelerava</b> es un Ambiente Virtual de Aprendizaje para el

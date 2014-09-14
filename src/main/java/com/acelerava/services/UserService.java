@@ -34,9 +34,13 @@ public class UserService {
 			String[] userFields = userStr.trim().split("\t\t");
 			String username = userFields[0];
 			String password = userFields[1];
-			String rol = userFields[2];
+			String name = userFields[2];
+			String rol = userFields[3];
 
-			User user = new User(username, password, rol);
+			User user = new User(username, password);
+			user.setName(name);
+			user.setRol(rol);
+
 			users.add(user);
 		}
 

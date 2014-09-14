@@ -23,6 +23,15 @@
 	</servlet-mapping>
 	
 	<servlet>
+		<servlet-name>signout</servlet-name>
+		<servlet-class>com.acelerava.web.SignoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>signout</servlet-name>
+		<url-pattern>/signout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
 		<servlet-name>evaluation</servlet-name>
 		<servlet-class>com.acelerava.web.EvaluationServlet</servlet-class>
 	</servlet>

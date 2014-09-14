@@ -3,11 +3,13 @@
 	<user>
 		<username>carmenza</username>
 		<password>carmenza</password>
-		<rol>PROFESOR</rol>
+		<name>Carmenza Roa</name>
+		<rol>Profesor</rol>
 	</user>
 	<user>
 		<username>yury</username>
 		<password>yury</password>
-		<rol>ESTUDIANTE</rol>
+		<name>Yury Niño</name>
+		<rol>Estudiante</rol>
 	</user>
 </users>
