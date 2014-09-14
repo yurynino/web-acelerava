@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+	<question>
+		<number>1</number>
+		<sentence>Cuáles son los nombres de los cinco continentes</sentence>
+		<options>
+			<option>América, Europa, Asia, Oceania y África</option>
+			<option>América, Europa, Asia, Perú y Colombia</option>
+			<option>Córdoba, Boyacá, Cundinamarca, Bogotá y Antioquia</option>
+			<option>América, Europa y Asia</option>
+		</options>
+	</question>
+	<question>
+		<number>2</number>
+		<sentence>Qué es un mapamundi</sentence>
+		<options>
+			<option>Es un mapa de los mares del mundo</option>
+			<option>Es una réplica a escala de un edificio</option>
+			<option>Es un mapa de toda la superficie de la Tierra</option>
+			<option>Es la capa externa de la Tierra</option>
+		</options>
+	</question>
+	<question>
+		<number>3</number>
+		<sentence>Qué fué el primer europeo en llegar a Colombia</sentence>
+		<options>
+			<option>Simón Bolivar</option>
+			<option>José Celestino Mutis</option>
+			<option>Cristobal Colón</option>
+			<option>Alonso de Ojeda</option>
+		</options>
+	</question>
+	<question>
+		<number>4</number>
+		<sentence>Cuáles son departamentos de Colombia</sentence>
+		<options>
+			<option>La Guajira, Amazonas, Quindío, Chocó</option>
+			<option>Garagoa, Boyacá, Cesar, Antioquia</option>
+			<option>Bogotá, Cundinamarca, Santander, Norte de Santander</option>
+			<option>Putumayo, Risaralda, Sucre, Ibagué</option>
+		</options>
+	</question>
+	<question>
+		<number>5</number>
+		<sentence>Cuál de estos fue uno de los primeros virreinatos</sentence>
+		<options>
+			<option>Virreinato de Colombia</option>
+			<option>Virreinato de Nueva España</option>
+			<option>Virreinato de Río de Janeiro</option>
+			<option>Virreinato de Nueva América</option>
+		</options>
+	</question>
+	<question>
+		<number>6</number>
+		<sentence>Cuántos departamentos tiene Colombia</sentence>
+		<options>
+			<option>42</option>
+			<option>16</option>
+			<option>32</option>
+			<option>33</option>
+		</options>
+	</question>
+	<question>
+		<number>7</number>
+		<sentence>Qué estudia la Hidrografía</sentence>
+		<options>
+			<option>La tierra, el aire, el agua y el fuego</option>
+			<option>Océanos, ríos, lagos, lagunas, quebradas y aguas subterráneas</option>
+			<option>Los departamentos de Colombia</option>
+			<option>La riqueza cultural de los municipios de Colombia</option>
+		</options>
+	</question>
+	<question>
+		<number>8</number>
+		<sentence>Cuál es el nombre de los océanos que rodean a Colombia</sentence>
+		<options>
+			<option>Océano Atlántico y Océano Pacífico</option>
+			<option>Mar Caribe, Océano Pacífico e Islas de San Andrés</option>
+			<option>Río Magdalena, Río Atrato y Río Vaupés</option>
+			<option>Océano índico y Océano Antártico</option>
+		</options>
+	</question>
+	<question>
+		<number>9</number>
+		<sentence>Cuál fue la hazaña de Kapax</sentence>
+		<options>
+			<option>Cruzar nadando el Océano Atlántico</option>
+			<option>Cazar la anaconda más grande del planeta</option>
+			<option>Cruzar nadando el Río Magdalena</option>
+			<option>Descubrir América en 1492</option>
+		</options>
+	</question>
+	<question>
+		<number>10</number>
+		<sentence>Quienes impulsaron la idea de independencia</sentence>
+		<options>
+			<option>Cristobal Colón, Napoleón Bonaparte y Simón Bolivar</option>
+			<option>Kapax, Camilo Torres y Jorge Eliécer Gaitán</option>
+			<option>Camilo Torres, Antonio Nariño, Francisco José de Caldas y Simón Bolívar</option>
+			<option>Uriel Gutiérrez, Antonio Nariño y Francisco José de Caldas</option>
+		</options>
+	</question>
+</questions>

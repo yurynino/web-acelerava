@@ -7,26 +7,26 @@
 		<li>
 			<a href="/three/day1-content.jsp">1. Regiones Naturales</a>
 			<ul>
-				<li><a href="/three/day1-game.jsp">A Jugar</a></li>
 				<li><a href="/three/day1-reading.jsp">A Leer</a></li>
+				<li><a href="/three/day1-game.jsp">A Jugar</a></li>
 			</ul>
 		</li>
 		<li>
 			<a href="/three/day2-content.jsp">2. Recursos Naturales</a>
 			<ul>
-				<li><a href="/three/day2-game.jsp">A Jugar</a></li>
 				<li><a href="/three/day2-reading.jsp">A Leer</a></li>
+				<li><a href="/three/day2-game.jsp">A Jugar</a></li>
 			</ul>
 		</li>
 		<li>
 			<a href="/three/day3-content.jsp">3. Riqueza Cultural</a>
 			<ul>
-				<li><a href="/three/day3-game.jsp">A Jugar</a></li>
 				<li><a href="/three/day3-reading.jsp">A Leer</a></li>
+				<li><a href="/three/day3-game.jsp">A Jugar</a></li>
 			</ul>
 		</li>
 		<li>
-			<a href="/two/evaluation.jsp">Evaluaci&oacute;n</a>
+			<a href="/evaluation?number=three">Evaluaci&oacute;n</a>
 		</li>
 	</ul>
 </div>

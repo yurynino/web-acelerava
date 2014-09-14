@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+	<question>
+		<number>1</number>
+		<sentence>Cuáles son las regiones naturales de Colombia</sentence>
+		<options>
+			<option>Océano Pacífico, Océano Atlántico</option>
+			<option>Cundinamarca, Boyacá, Risaralda</option>
+			<option>Región Caribe, Región de la Orinoquía, Región Andina, Región Pacifíca, Región de la Amazonía</option>
+			<option>Región Caribe, Región de la Orinoquía, Región Andina, Región Pacifíca, Región de la Amazonía, Región Insular</option>
+		</options>
+	</question>
+	<question>
+		<number>2</number>
+		<sentence>Con cuántas lenguas nativas cuenta Colombia</sentence>
+		<options>
+			<option>12</option>
+			<option>64</option>
+			<option>46</option>
+			<option>63</option>
+		</options>
+	</question>
+	<question>
+		<number>3</number>
+		<sentence>Cuál región comprende el 41% del territorio nacional</sentence>
+		<options>
+			<option>Región Amazonía</option>
+			<option>Región Caribe</option>
+			<option>Región Latina</option>
+			<option>Río Magdalena</option>
+		</options>
+	</question>
+	<question>
+		<number>4</number>
+		<sentence>Cuál es la región más grande y poblada de Colombia</sentence>
+		<options>
+			<option>Cundinamarca</option>
+			<option>Región Amazonía</option>
+			<option>Región Pacifico</option>
+			<option>Región Andina</option>
+		</options>
+	</question>
+	<question>
+		<number>5</number>
+		<sentence>Con cuántos pueblos indígenas cuenta Colombia</sentence>
+		<options>
+			<option>14</option>
+			<option>30</option>
+			<option>64</option>
+			<option>87</option>
+		</options>
+	</question>
+	<question>
+		<number>6</number>
+		<sentence>Cuáles son los tipos de recursos naturales</sentence>
+		<options>
+			<option>Flora y fauna</option>
+			<option>Renovables y no renovables</option>
+			<option>Degradables y biodegradables</option>
+			<option>Renovables y minerales</option>
+		</options>
+	</question>
+	<question>
+		<number>7</number>
+		<sentence>En qué sitio pasó la Leyenda del Dorado</sentence>
+		<options>
+			<option>Laguna de Tota</option>
+			<option>Laguna de Risaralda</option>
+			<option>Laguna de Guatavita</option>
+			<option>Río Magdalena</option>
+		</options>
+	</question>
+	<question>
+		<number>8</number>
+		<sentence>Cuáles son ejemplos de recursos renovables</sentence>
+		<options>
+			<option>El petróleo, las esmeraldas y el carbón</option>
+			<option>La radiación solar, las mareas, el viento y la energía hidroeléctrica</option>
+			<option>El plástico, el carbón y los animales</option>
+			<option>El viento, el agua y el oro</option>
+		</options>
+	</question>
+	<question>
+		<number>9</number>
+		<sentence>En donde se desarrolla la leyenda del Delfín Rosado</sentence>
+		<options>
+			<option>Río Caribe</option>
+			<option>Laguna de Tota</option>
+			<option>Río Amazonas</option>
+			<option>Laguna de Guatavita</option>
+		</options>
+	</question>
+	<question>
+		<number>10</number>
+		<sentence>Qué es el Mequerule</sentence>
+		<options>
+			<option>Un ritmo de salsa</option>
+			<option>Un baile de mapalé</option>
+			<option>Un ritmo costeño</option>
+			<option>Un ritmo negro chocoano</option>
+		</options>
+	</question>
+</questions>

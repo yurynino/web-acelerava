@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+	<question>
+		<number>1</number>
+		<sentence>En qué año aparecen las primeras ciudades</sentence>
+		<options>
+			<option>Año 2.000 a.C.</option>
+			<option>Año 4.000 a.C.</option>
+			<option>Año 0</option>
+			<option>Año 500</option>
+		</options>
+	</question>
+	<question>
+		<number>2</number>
+		<sentence>Cuáles son platos típicos de Colombia</sentence>
+		<options>
+			<option>La bandeja paisa, el ajiaco santafereño y la lechona tolimense</option>
+			<option>El pan francés y las hamburguesas</option>
+			<option>El joropo, el mapalé y la salsa</option>
+			<option>Las pasta, el arroz y el trigo</option>
+		</options>
+	</question>
+	<question>
+		<number>3</number>
+		<sentence>Cuáles tradiciones influyeron en la gastronomía colombiana</sentence>
+		<options>
+			<option>La comida europea y asiática</option>
+			<option>La cultura americana</option>
+			<option>Las tradiciones de los abuelos</option>
+			<option>Las tradiciones de las culturas española, mestiza y afro</option>
+		</options>
+	</question>
+	<question>
+		<number>4</number>
+		<sentence>En qué país se construyeron las primeras viviendas de madera con techo de paja</sentence>
+		<options>
+			<option>Egipto</option>
+			<option>Colombia</option>
+			<option>Alemania</option>
+			<option>Turquía</option>
+		</options>
+	</question>
+	<question>
+		<number>5</number>
+		<sentence>Qué ingredientes se necesitan para preparar arequipe</sentence>
+		<options>
+			<option>Leche, azúcar blanca y zanahorias</option>
+			<option>Arroz, papa y carne</option>
+			<option>Leche, azúcar blanca, bicarbonato de sodio, sal y canela</option>
+			<option>Leche, azúcar blanca, bicarbonato de sodio y vinagre</option>
+		</options>
+	</question>
+	<question>
+		<number>6</number>
+		<sentence>Quién compusó la canción "La Casa en el Aire"</sentence>
+		<options>
+			<option>Rafael Escalona</option>
+			<option>Carlos Vives</option>
+			<option>Gabriel García Marquéz</option>
+			<option>Shakira</option>
+		</options>
+	</question>
+	<question>
+		<number>7</number>
+		<sentence>Quienes construyeron las primeras casas capaces de resistir a los terremotos</sentence>
+		<options>
+			<option>Los Mayas</option>
+			<option>Los Incas</option>
+			<option>Los Afrocolombianos</option>
+			<option>Los Gitanos</option>
+		</options>
+	</question>
+	<question>
+		<number>8</number>
+		<sentence>Donde se celebra la Feria de la Cultura Wayuu</sentence>
+		<options>
+			<option>En la Sierra Nevada de Santa Marta</option>
+			<option>En la Guajira</option>
+			<option>En Bogotá</option>
+			<option>En Ibagué</option>
+		</options>
+	</question>
+	<question>
+		<number>9</number>
+		<sentence>El Mohán es</sentence>
+		<options>
+			<option>Un mito</option>
+			<option>Una leyenda</option>
+			<option>Un cuento</option>
+			<option>Una poesía</option>
+		</options>
+	</question>
+	<question>
+		<number>10</number>
+		<sentence>En qué mes se realiza el Carnaval de Barranquilla</sentence>
+		<options>
+			<option>Enero</option>
+			<option>Diciembre</option>
+			<option>Marzo</option>
+			<option>Febrero</option>
+		</options>
+	</question>
+</questions>
