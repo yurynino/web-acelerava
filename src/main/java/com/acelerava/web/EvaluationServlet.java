@@ -13,6 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.acelerava.domain.Question;
 import com.acelerava.services.EvaluationService;
+import com.google.appengine.api.datastore.DatastoreService;
+import com.google.appengine.api.datastore.DatastoreServiceFactory;
+import com.google.appengine.api.datastore.Entity;
 
 public class EvaluationServlet extends HttpServlet {
 
@@ -39,30 +42,29 @@ public class EvaluationServlet extends HttpServlet {
 	}
 
 	@Override
-	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-		System.out.println("POSTTTTTTTTTTTT");
+	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+		String number = req.getParameter("number");
+		URL url = getClass().getResource("answers.xml");
 
-		// int grade = 0;
-		// for (int i = 0; i < 10; i++) {
-		// String answer = req.getParameter("answer_" + i);
-		// boolean noNull = answer != null && !answer.equals("") &&
-		// !answer.equals("null");
-		// grade += noNull && evaluation.isCorrect(i, Integer.valueOf(answer)) ?
-		// 1 : 0;
-		// }
-		//
-		// String evaluationName = req.getParameter("evaluation");
-		// Entity evalData = new Entity("Evaluation", evaluationName);
-		// evalData.setProperty("grade", grade);
-		// evalData.setProperty("user", user);
-		//
-		// DatastoreService datastore =
-		// DatastoreServiceFactory.getDatastoreService();
-		// datastore.put(evalData);
-		//
-		// System.out.println("Evaluation: " + evaluationName);
-		// System.out.println("User: " + user);
-		// System.out.println("Grade: " + grade);
+		InputStreamReader input = new InputStreamReader(url.openStream());
+		BufferedReader buffer = new BufferedReader(input);
+		String[] answers = evaluationService.getAnswers(buffer, number);
+
+		int grade = 0;
+		for (int i = 0; i < 10; i++) {
+			String answer = req.getParameter("answer_" + i);
+			boolean noNull = answer != null && !answer.equals("") && !answer.equals("null");
+			grade += noNull && answer.equals(answers[i]) ? 1 : 0;
+		}
+
+		Entity evalData = new Entity("Evaluation", number);
+		evalData.setProperty("grade", grade);
+
+		DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+		datastore.put(evalData);
+
+		req.setAttribute("grade", grade);
+		req.getRequestDispatcher("/report.jsp").forward(req, resp);
 	}
 
 }

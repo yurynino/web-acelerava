@@ -20,15 +20,16 @@
 			<form action="evaluation" method="POST">
 				<c:forEach items="${questions}" var="question">
 					<div class="question">
-						<b>${question.number} ${question.sentence}</b>
+						<b>${question.number} ${question.formatSentence}</b>
 						<br />
-						<c:forEach items="${question.options}" var="option" varStatus="status" >
-							<input type="radio" name="answer_${question}" value="${status.index}" /> ${option}
+						<c:forEach items="${question.formatOptions}" var="option" varStatus="status" >
+							<input type="radio" name="answer_${status.index}" value="${status.index + 1}" /> ${option}
 							<br>
 						</c:forEach>
 					</div>
 				</c:forEach>
 				<div>
+					<input type="hidden" name="number" value="two">
 					<input type="submit" value="Env&iacute;ar" />
 				</div>
 			</form>

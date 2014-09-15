@@ -3,6 +3,8 @@ package com.acelerava.domain;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.acelerava.util.StringUtil;
+
 public class Question {
 
 	private Integer number;
@@ -26,8 +28,23 @@ public class Question {
 		return sentence;
 	}
 
+	public String getFormatSentence() {
+		String formatText = StringUtil.formatText(sentence);
+		formatText = "&iquest;" + formatText + "?";
+		return formatText;
+	}
+
 	public List<String> getOptions() {
 		return options;
+	}
+
+	public List<String> getFormatOptions() {
+		List<String> formatOptions = new ArrayList<String>();
+		for (String option : options) {
+			String newOption = StringUtil.formatText(option);
+			formatOptions.add(newOption);
+		}
+		return formatOptions;
 	}
 
 	public void addOption(String option) {

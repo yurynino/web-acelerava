@@ -43,4 +43,9 @@ public class EvaluationService {
 		return questions;
 	}
 
+	public String[] getAnswers(BufferedReader buffer, String number) {
+		String xmlStr = xmlService.parseXmlDom(buffer, "/answers/answer-" + number);
+		return xmlStr.trim().split(" ");
+	}
+
 }
