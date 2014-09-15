@@ -10,6 +10,6 @@
 		<a href="/three/subproject.jsp">Subproyecto 3<span>Colombia Regional</span></a>
 	</li>
 	<li>
-		<a href="/reports/report.jsp">Reportes<span>Mi Desempe&ntilde;o</span></a>
+		<a href="/report.jsp">Reportes<span>Mi Desempe&ntilde;o</span></a>
 	</li>
 </ul>

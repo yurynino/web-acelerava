@@ -9,9 +9,6 @@
     <decorator name="three-theme" page="three-theme.jsp">
         <pattern>/three/*</pattern>
     </decorator>
-    <decorator name="report-theme" page="report-theme.jsp">
-        <pattern>/reports/*</pattern>
-    </decorator>
     <decorator name="basic-theme" page="basic-theme.jsp">
         <pattern>*</pattern>
     </decorator>

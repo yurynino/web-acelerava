@@ -10,6 +10,7 @@
 <head>
 	<title>Bienvenido::Acelerava</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<decorator:head />
 </head>
 <body>
 	<div id="background">

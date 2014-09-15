@@ -8,9 +8,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Acelerava::Subproyecto 1</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="../css/style.css" >
-	<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
 	<decorator:head />
 </head>
 <body>
