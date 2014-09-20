@@ -9,6 +9,8 @@
 <head>
 	<title>Acelerava::Subproyecto 1</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui-1.8.16.custom.min.js"></script>
 	<decorator:head />
 </head>
 <body>

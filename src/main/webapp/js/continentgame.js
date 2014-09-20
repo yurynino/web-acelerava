@@ -13,7 +13,7 @@ function generateQuestion(index) {
 	
 }
 
-function verifyAnswer(answer) {
+function verifyAnswer1(answer) {
 	var correctEl = $("#correct");
 	
 	if (correctEl.val() == answer) {

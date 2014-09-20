@@ -25,7 +25,7 @@
 						<br />
 						<c:forEach items="${question.formatOptions}" var="option" varStatus="status" >
 							<input type="radio" name="answer_${status.index}" value="${status.index + 1}" /> ${option}
-							<br>
+							<br/>
 						</c:forEach>
 					</div>
 				</c:forEach>

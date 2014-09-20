@@ -1,6 +1,6 @@
 <head>
-	<link href="../css/locategame.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="../js/locategame.js"></script>
+	<link href="../css/continentgame.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="../js/continentgame.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			generateQuestion(0);
@@ -23,19 +23,19 @@
 					<input type="hidden" id="correct" value="" />
 				</div>
 				<div class="game">
-					<div class="world-game-left" onclick="verifyAnswer('0')">
+					<div class="world-game-left" onclick="verifyAnswer1('0')">
 						<img id="image_0" src="/images/one/world-map-game-0.jpg">
 					</div>
-					<div class="world-game-left" onclick="verifyAnswer('1')">
+					<div class="world-game-left" onclick="verifyAnswer1('1')">
 						<img id="image_1" src="/images/one/world-map-game-1.jpg">
 					</div>
-					<div class="world-game-left" onclick="verifyAnswer('2')">
+					<div class="world-game-left" onclick="verifyAnswer1('2')">
 						<img id="image_2" src="/images/one/world-map-game-2.jpg">
 					</div>
-					<div class="world-game-left" onclick="verifyAnswer('3')">
+					<div class="world-game-left" onclick="verifyAnswer1('3')">
 						<img id="image_3" src="/images/one/world-map-game-3.jpg">
 					</div>
-					<div class="world-game-left" onclick="verifyAnswer('4')">
+					<div class="world-game-left" onclick="verifyAnswer1('4')">
 						<img id="image_4" src="/images/one/world-map-game-4.jpg">
 					</div>
 				</div>

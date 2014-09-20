@@ -1,6 +1,4 @@
 <head>
-    <script type="text/javascript" src="../js/jquery-1.6.2.min.js"></script>
-    <script type="text/javascript" src="../js/jquery-ui-1.8.16.custom.min.js"></script>
     <script type="text/javascript" src="../js/wordsearchgame.js"></script>
     <script type="text/javascript" src="../js/jquery.ui.touch-punch.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/wordsearchgame.css" >
