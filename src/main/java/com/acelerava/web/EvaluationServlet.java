@@ -37,6 +37,7 @@ public class EvaluationServlet extends HttpServlet {
 		BufferedReader buffer = new BufferedReader(input);
 		List<Question> questions = evaluationService.findQuestions(buffer);
 
+		req.setCharacterEncoding("UTF-8");
 		req.setAttribute("questions", questions);
 		req.getRequestDispatcher("/" + number + "/evaluation.jsp").forward(req, resp);
 	}
@@ -63,6 +64,7 @@ public class EvaluationServlet extends HttpServlet {
 		DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 		datastore.put(evalData);
 
+		req.setCharacterEncoding("UTF-8");
 		req.setAttribute("grade", grade);
 		req.getRequestDispatcher("/report.jsp").forward(req, resp);
 	}

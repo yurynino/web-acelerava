@@ -8,7 +8,7 @@ function verify(numQuestion, answer) {
 	var correct = ["1", "2", "2", "4", "3", "1", "1", "4" ];
 	
 	if (correct[numQuestion] == answer) {
-		if (numQuestion < 8) {
+		if (numQuestion < 7) {
 			alert("Muy bien, ahora prueba con otro río");
 		} else {
 			alert("Muy bien, Terminaste!!!");
@@ -41,7 +41,7 @@ function updateQuestion(nextQuestion) {
 	
 	if (nextQuestion < 8) {
 		$("#hidrography-image").empty();
-		$("#hidrography-image").append("<img id=\"image\" src=\"/images/one/hidrography" + nextQuestion + ".gif\" width=\"70%\">");
+		$("#hidrography-image").append("<img id=\"image\" src=\"/images/one/hidrography" + nextQuestion + ".gif\" width=\"50%\">");
 		
 		$("#options").empty();
 		var token = tokens[nextQuestion];

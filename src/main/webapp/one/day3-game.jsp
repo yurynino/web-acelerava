@@ -13,7 +13,7 @@
 				Selecciona el nombre el nombre del r&iacute;o que corresponde con la imagen.  
 			</div>
 			<div id="hidrography-image" align="center">
-				<img id="image" src="/images/one/hidrography0.gif" width="70%">
+				<img id="image" src="/images/one/hidrography0.gif" width="50%">
 			</div>
 			<div class="div-options">
 				<h4>Opciones</h4>

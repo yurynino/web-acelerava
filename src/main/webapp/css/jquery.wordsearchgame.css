@@ -1,51 +1,50 @@
-/* General Styles*/
-#background #page #body #content .body .content ul li ul {
-	margin: 0;
-	padding: 0;
-}
 
 /* Style for grid cells */
 .rf-tgrid {
     font-family: Verdana,Arial,Helvetica,sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 11px;
     margin: 1px;
-    padding: 10px;
+    padding: 8px;
 /*    border: 1px solid bisque;*/
     vertical-align: middle;
     text-align: center;
-
 }
 
 /* Style for the grid */
 .rf-tablestyle {
     border: 2px solid;
-    border-color: #809997;
+    border-color: gold;
     background-color: ghostwhite;
     cursor: pointer;
-	margin-left: 50px;
 }
 
 /* Style for the div containing the grid */
 #rf-searchgamecontainer {
     float: left;
+    padding-right: 5px; 
 }
 
 /* Style for the div containing the word list */
 #rf-wordcontainer {
     font-family: Verdana,Arial,Helvetica,sans-serif;
-    float :left;
+    font-size: 11px;
+    float: left;
     cursor: default;
-	margin : 5px 5px 5px 20px;
+	
+    border: 2px solid;
+    border-color: gold;
+
 	cursor: pointer;	
 }
 
 /* Style for the words that have been found */
 .rf-foundword {
-	background-color: #e3f1f1;
     font-family: Verdana,Arial,Helvetica,sans-serif;
 	text-decoration : line-through;
 	color : lightgray;
+	font-style : italic;
+
 }
 
 #rf-tablegrid .rf-armed {

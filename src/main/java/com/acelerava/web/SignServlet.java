@@ -39,6 +39,7 @@ public class SignServlet extends HttpServlet {
 			InputStreamReader input = new InputStreamReader(url.openStream());
 			BufferedReader buffer = new BufferedReader(input);
 
+			req.setCharacterEncoding("UTF-8");
 			User user = userService.getUser(buffer, username, password);
 			if (user != null) {
 				req.getSession().setAttribute("user", user);

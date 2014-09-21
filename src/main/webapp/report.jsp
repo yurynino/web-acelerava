@@ -6,7 +6,7 @@
 	Integer grade = (Integer) request.getAttribute("grade");
 %>
 <head>
-	<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>	
+	<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>	
 	<script type="text/javascript" src="../js/Chart.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){

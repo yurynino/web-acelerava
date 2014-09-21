@@ -88,34 +88,22 @@
 
             options : {
                 wordlist : null,
-				gridsize : 10,
-				addIndex : 0
+				gridsize : 10
             },
-			_mapEventToCell: function(event) {
-                var currentColumn = Math.ceil((event.pageX - this._cellX) / this._cellWidth);
-                var currentRow = Math.ceil((event.pageY - this._cellY) / this._cellHeight);
-                var el = $('#rf-tablegrid tr:nth-child('+currentRow+') td:nth-child('+currentColumn+')');
-                return el;
-			},
             
             _create : function () {
                 //member variables
-                this.model      = GameWidgetHelper.prepGrid(this.options.gridsize, this.options.wordlist);
+                this.model      = GameWidgetHelper.prepGrid(this.options.gridsize, this.options.wordlist)
                 this.startedAt  = new Root();
                 this.hotzone    = new Hotzone();
                 this.arms       = new Arms();
-				
                 
 				GameWidgetHelper.renderGame(this.element[0],this.model);
 				
 				this.options.distance=0; // set mouse option property
                 this._mouseInit();
                 
-                var cell = $('#rf-tablegrid tr:first td:first');
-        this._cellWidth = cell.outerWidth();
-        this._cellHeight = cell.outerHeight();
-        this._cellX = cell.offset().left;
-        this._cellY = cell.offset().top;
+                
             },//_create
             
             destroy : function () {
@@ -135,7 +123,7 @@
 				var panel = $(event.target).parents("div").attr("id");
 				if ( panel == 'rf-searchgamecontainer') {
 					this.startedAt.setRoot( event.target );
-					this.hotzone.createZone( event.target );
+					this.hotzone.createZone( event.target )
 				}
 				else if ( panel == 'rf-wordcontainer') {
 					//User has requested help. Identify the word on the grid
@@ -152,7 +140,7 @@
             },
             
             _mouseDrag : function(event) {
-                event.target = this._mapEventToCell(event); 
+                
                 //if this.root - clear out everything and return to orignal clicked state
                 if (this.startedAt.isSameCell(event.target)) {
                     this.arms.returnToNormal();
@@ -175,7 +163,7 @@
                         
                     }else { //in arms
                         //set glowing from target to root
-                        this.arms.glowTo(event.target);
+                        this.arms.glowTo(event.target)
                     }
                 }
                 
@@ -190,14 +178,13 @@
                         selectedword += u.value;
                 });
 
-                var wordIndex = this.model.wordList.isWordPresent(selectedword);
+                var wordIndex = this.model.wordList.isWordPresent(selectedword)
                 if (wordIndex!=-1) {
                     $('.rf-glowing, .rf-highlight', this.element[0]).each(function() {
                             Visualizer.select(this);
                             $.data(this,"selected", "true");
 
                     });
-                    wordIndex = wordIndex + this.options.addIndex;
                     GameWidgetHelper.signalWordFound(wordIndex);
                 }
 
@@ -318,7 +305,7 @@ function Arms() {
 
             }
         }
-    };
+    }
 	
 	//clear out the arms 
     this.returnToNormal = function () {
@@ -327,14 +314,14 @@ function Arms() {
         for (var t=1;t<this.arms.length;t++) { //don't clear the hotzone
             Visualizer.restore(this.arms[t]);
         }
-    };
+    }
     
     
     this.clean = function() {
         $(this.arms).each(function () {
            Visualizer.clean(this); 
         });
-    };
+    }
  
 }
 
@@ -418,11 +405,11 @@ function Root() {
     
     this.isSameCell = function (t) {
         return $(this.root).is($(t));
-    };
+    }
     
     this.clean = function () {
         Visualizer.clean(this.root);
-    };
+    }
     
 }
 
@@ -474,8 +461,8 @@ var Visualizer = {
 
 		$(w).css("background",'yellow').animate({"opacity": 'hide'},1000,"linear",
 					 function () {
-						 $(w).css("background",'#e5f1ef');
-						 $(w).addClass('rf-foundword').animate({"opacity": 'show'},1000,"linear");
+						 $(w).css("background",'white')
+						 $(w).addClass('rf-foundword').animate({"opacity": 'show'},1000,"linear")
 					 });
     },
 
@@ -1305,7 +1292,7 @@ var GameWidgetHelper = {
     },
 	
 	signalWordFound : function(idx) {
-		var w = $("li").get(idx);
+		var w = $("#rf-wordcontainer li").get(idx);
 		Visualizer.signalWordFound(w);
 	}
 	
