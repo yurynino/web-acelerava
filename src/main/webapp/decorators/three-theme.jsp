@@ -8,6 +8,7 @@
 
 <head>
 	<title>Acelerava::Subproyecto 3</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
 	<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
 	<decorator:head />

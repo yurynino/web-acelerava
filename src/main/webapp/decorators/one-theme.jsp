@@ -8,6 +8,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Acelerava::Subproyecto 1</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
 	<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
     <script type="text/javascript" src="../js/jquery-ui-1.8.16.custom.min.js"></script>
