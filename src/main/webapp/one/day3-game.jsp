@@ -28,7 +28,7 @@
 				</form>
 			</div>
 			<div>
-				<input type="submit" id="verify-answer" value="Enviar" onclick="verifyAnswer3()" />
+				<input type="submit" id="verify-answer" value="Enviar" onclick="verifyAnswer2()" />
 			</div>
 			<div class="information">
 				<h4>Calificaci&oacute;n: <span id="score">0</span></h4>

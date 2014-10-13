@@ -1,4 +1,4 @@
-function verifyAnswer3() {
+function verifyAnswer2() {
 	var numQuestion = $("#num-question");
 	var elem = $('input[name=answers]:checked', '#hidrography-form');
 	verify(numQuestion.val(), elem.val());
