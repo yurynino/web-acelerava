@@ -5,15 +5,9 @@
     <link  rel="stylesheet" type="text/css" href="../css/jquery.wordsearchgame.css">
 	
 	<script>
-// 		$(document).ready(function(){
-// 			var words = "Amazonas,Antioquia,Atlantico,Bolivar,Boyaca,Caldas,Casanare,Cauca,Cesar,Choco,"+
-// 						"Guainia,Guaviare,Huila,Meta,Putumayo,Risaralda,Santander,Sucre,Tolima,Vichada";
-// 			$("#theGrid").wordsearchwidget({"wordlist" : words,"gridsize" : 12,"addIndex" : 13});
-// 		});
 		$(document).ready( function () {
 			var words = "amazonas,antioquia,atlantico,bolivar,boyaca,caldas,casanare,cauca,cesar,"+
 						"choco,guainia,huila,guaviare,meta,putumayo,risaralda,santander,sucre,tolima,vichada";
-			//attach the game to a div
 			$("#theGrid").wordsearchwidget({"wordlist" : words,"gridsize" : 15});
 		});
      </script>
